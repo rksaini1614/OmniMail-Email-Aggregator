@@ -21,13 +21,13 @@ const AboutUs = () => {
           </p>
 
           <p>
-            This web application is created using <strong>MERN (MongoDb,Express,React,NodeJs) Stack,
-            TailwindCSS, JWT (JsonWebToken), Google apis (Gmail Apis like OAuth2)</strong>
+            This web application is created using <strong>MERN (MongoDB,Express,React,Node.js) Stack,
+            TailwindCSS, JWT (JsonWebToken), Google APIs (Gmail APIs like OAuth2).</strong>
           </p>
 
           <p>
             Created by a passionate developer — <strong>Ritik Saini</strong>, 
-            an IT student persuing his B.Tech degree from <strong>Delhi Technological University (DTU).</strong>
+            an IT student pursuing his B.Tech degree from <strong>Delhi Technological University (DTU).</strong>
           </p>
         </div>
       </div>
