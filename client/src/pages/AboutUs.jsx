@@ -15,7 +15,7 @@ const AboutUs = () => {
 
         <div className="space-y-6 text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
           <p>
-            In a world flooded with notifications and fragmented inboxes, <strong>OmniMail</strong> 
+            In a world flooded with notifications and fragmented inboxes, <strong>OmniMail </strong> 
             emerged with a simple goal: <strong>to simplify email management</strong>. Whether you're a creator juggling sponsorships, 
             a professional balancing work-life emails, or just someone tired of switching tabs — OmniMail brings everything to one screen.
           </p>
