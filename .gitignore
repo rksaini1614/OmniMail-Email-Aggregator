@@ -1,0 +1,7 @@
+# .gitignore
+node_modules/
+.env
+dist/
+.vercel/
+.DS_Store
+.vscode/
