@@ -47,7 +47,7 @@ exports.authenticate = async(req, res, next) => {
 
             req.user = user;
             //req.token = token;
-            console.log("Authenticated user: ", req.user);
+            //console.log("Authenticated user: ", req.user);
             next();
         }
         catch(err){
