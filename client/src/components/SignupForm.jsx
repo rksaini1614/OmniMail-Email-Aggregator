@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import HighlightText from './commoN/HighlightText';
+import TextDecorator from './common/TextDecorator';
 import { EyeIcon } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 import toast from 'react-hot-toast';
@@ -61,7 +61,7 @@ const SignupForm = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-8">
         <h2 className="text-3xl font-bold text-center text-omni-color mb-6">
-          Sign Up to <HighlightText text={"OmniMail"} />
+          Sign Up to <TextDecorator text={"OmniMail"} />
         </h2>
 
         <form className="space-y-4" onSubmit={handleSubmit}>

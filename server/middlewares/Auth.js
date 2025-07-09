@@ -8,9 +8,9 @@ exports.authenticate = async(req, res, next) => {
         // get auth header
         const authHeader = req.headers["authorization"];
 
-        console.log("req.cookies:", req.cookies);
-        console.log("req.body.token:", req.body?.token);
-        console.log("Authorization header:", authHeader);
+        // console.log("req.cookies:", req.cookies);
+        // console.log("req.body.token:", req.body?.token);
+        // console.log("Authorization header:", authHeader);
         
         // get jwt token
         let token = null;
@@ -22,7 +22,7 @@ exports.authenticate = async(req, res, next) => {
         } else if (typeof authHeader === "string" && authHeader.startsWith("Bearer ")) {
             token = authHeader.replace("Bearer ", "").trim();
         }
-        console.log("Token received: ", token);
+        //console.log("Token received: ", token);
         if(!token) {
             return res.status(401).json(
                 {

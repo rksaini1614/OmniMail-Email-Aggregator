@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { EyeIcon } from "lucide-react"; // Ensure you have @heroicons/react installed
+import { EyeIcon } from "lucide-react"; 
 import React from "react";
-import HighlightText from "./common/highlightText";
+import TextDecorator from "./common/TextDecorator";
 import {useNavigate } from "react-router-dom";
 import { useAppContext } from "../context/AppContext";
 import toast from "react-hot-toast";
@@ -25,18 +25,14 @@ const LoginForm = () => {
 
     const handleSubmit = async(e) => {
         e.preventDefault();
-        console.log("Login submitted:", form);
-        console.log("getuser se pehle :")
+        //console.log("Login submitted:", form);
         const userDetails = await getUser(form.email);
-        console.log("getuser k baad :");
-        console.log("user :",userDetails);
+        //console.log("user :",userDetails);
         if(!userDetails){
-            console.log("nahi mila");
             toast.error("User is not register!");
-            //navigate("/signup");
             setLoading(false);
         }else{
-            console.log("login m error")
+            //console.log("Error in login")
             const success = await login(form.email,form.password)
                 
             if(success) {
@@ -49,7 +45,7 @@ const LoginForm = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
         <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-8">
-            <h2 className="text-3xl font-bold text-center mb-6">Login to <HighlightText text={"OmniMail"} /></h2>
+            <h2 className="text-3xl font-bold text-center mb-6">Login to <TextDecorator text={"OmniMail"} /></h2>
 
             <form className="space-y-5" onSubmit={handleSubmit}>
             <div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import HighlightText from "./common/highlightText";
 import TypewriterHero from "./TypewritterHero";
 
 const HeroSection = () => {
