@@ -21,7 +21,7 @@ const AboutUs = () => {
           </p>
 
           <p>
-            This web application is created using <strong>MERN (MongoDB,Express,React,Node.js) Stack,
+            This web application is created using <strong>MERN (MongoDB, Express, React, Node.js) Stack,
             TailwindCSS, JWT (JsonWebToken), Google APIs (Gmail APIs like OAuth2).</strong>
           </p>
 
