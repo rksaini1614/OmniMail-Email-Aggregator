@@ -5,7 +5,7 @@ OmniMail is a full-stack email aggregator web application that allows users to s
 ---
 
 ## 🚀 Live Demo
-**Live:** [Vercel Linl](https://omni-mail-email-aggregator.vercel.app/)
+**Live:** [Vercel Link](https://omni-mail-email-aggregator.vercel.app/)
 **Backend API:** [Render Link](https://omnimail-email-aggregator.onrender.com)  
 
 
@@ -57,23 +57,41 @@ OmniMail is a full-stack email aggregator web application that allows users to s
 ##  Folder Structure (Core)
 
 OmniMail/
+
 │
+
 ├── client/ # Frontend (React + Tailwind + Vite)
+
 │ ├── src/
+
 │ │ ├── components/ # Navbar, Sidebar, InboxCard, etc.
+
 │ │ ├── pages/ # Login, Signup, Inbox, Profile, Settings
+
 │ │ └── context/ # Auth context for global state
+
 │ └── ...
+
 │
+
 ├── server/ # Backend (Node.js + Express + MongoDB)
+
 │ ├── controllers/
+
 │ ├── models/
+
 │ ├── routes/
+
 │ ├── middleware/
+
 │ ├── services/
+
 │ └── ml/ # ML model (spam detection)
+
 │ └── spam_classifier.pkl
+
 │
+
 └── README.md
 
 
