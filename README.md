@@ -85,11 +85,6 @@ OmniMail/
 │ ├── middleware/
 
 │ ├── services/
-
-│ └── ml/ # ML model (spam detection)
-
-│ └── spam_classifier.pkl
-
 │
 
 └── README.md
